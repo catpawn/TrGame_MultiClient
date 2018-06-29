@@ -1,0 +1,29 @@
+﻿已經開始建置於 2014/7/27 下午 03:18:53。
+     1>節點 2 (build 目標) 上的專案 "C:\Multi_Tr\Multi_Tr\Multi_Tr.vcxproj"。
+     1>PrepareForBuild:
+         正在建立目錄 "C:\Multi_Tr\Debug\"。
+       InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\Multi_Tr.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MULTI_TR_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\multi_tr\multi_tr\main.cpp(50): error C2664: 'GetSystemDirectoryW' : 無法將參數 1 從 'LPSTR' 轉換成 'LPWSTR'
+                 指向的型別沒有相關; 轉換必須有 reinterpret_cast、C-Style 轉換或函式樣式轉換
+     1>c:\multi_tr\multi_tr\main.cpp(51): error C2660: 'strcat_s' : 函式不使用 2 引數
+     1>c:\multi_tr\multi_tr\main.cpp(83): error C2664: 'wsprintfW' : 無法將參數 1 從 'CHAR [16]' 轉換成 'LPWSTR'
+                 指向的型別沒有相關; 轉換必須有 reinterpret_cast、C-Style 轉換或函式樣式轉換
+     1>c:\multi_tr\multi_tr\main.cpp(118): error C2664: 'OutputDebugStringW' : 無法將參數 1 從 'const char [19]' 轉換成 'LPCWSTR'
+                 指向的型別沒有相關; 轉換必須有 reinterpret_cast、C-Style 轉換或函式樣式轉換
+     1>c:\multi_tr\multi_tr\main.cpp(130): error C2664: 'OutputDebugStringW' : 無法將參數 1 從 'const char [28]' 轉換成 'LPCWSTR'
+                 指向的型別沒有相關; 轉換必須有 reinterpret_cast、C-Style 轉換或函式樣式轉換
+     1>c:\multi_tr\multi_tr\main.cpp(135): error C2664: 'OutputDebugStringW' : 無法將參數 1 從 'const char [24]' 轉換成 'LPCWSTR'
+                 指向的型別沒有相關; 轉換必須有 reinterpret_cast、C-Style 轉換或函式樣式轉換
+     1>c:\multi_tr\multi_tr\main.cpp(352): error C2664: 'OutputDebugStringW' : 無法將參數 1 從 'const char [25]' 轉換成 'LPCWSTR'
+                 指向的型別沒有相關; 轉換必須有 reinterpret_cast、C-Style 轉換或函式樣式轉換
+     1>c:\multi_tr\multi_tr\main.cpp(356): error C2664: 'MessageBoxW' : 無法將參數 2 從 'const char [24]' 轉換成 'LPCWSTR'
+                 指向的型別沒有相關; 轉換必須有 reinterpret_cast、C-Style 轉換或函式樣式轉換
+     1>專案 "C:\Multi_Tr\Multi_Tr\Multi_Tr.vcxproj" (build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:02.73
